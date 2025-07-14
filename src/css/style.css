@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: #5d5d5d;
+    transition: 0.2s;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main{
+    height: 70vh;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(231, 231, 231);
+    height: 250px;
+}
+
+.footer h1{
+    font-size: 20px;
+}
+
+.footer .logo,.services,.company,.follow-us{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.logo p{
+    margin: 10px;
+    width: 50%;
+    font-weight: bold;    
+}
+
+.services,.company,.follow-us{
+    margin: 20px 40px 0 0;
+    padding: 10px;
+}
+
+.services a, .company a{
+    margin: 15px 0 0 0;
+}
+
+.follow-us .social-media{
+    display: flex;
+    flex-direction: row;
+    font-size: 36px;
+    margin: 15px 0 0 0;
+}
+
+.follow-us .social-media i{
+    margin: 10px;
+}
+
+.follow-us .social-media .bxl-instagram:hover{
+    color: rgb(113, 5, 113);
+    transition: 0.2s;
+}
+
+.follow-us .social-media .bxl-telegram:hover{
+    color: rgb(56, 116, 229);
+    transition: 0.2s;
+}
+
+.follow-us .social-media .bxl-whatsapp:hover{
+    color: rgb(15, 104, 15);
+    transition: 0.2s;
+}
+
+
